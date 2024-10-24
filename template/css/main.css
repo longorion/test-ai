@@ -1,0 +1,20 @@
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75); /* Màu chữ nhạt hơn một chút */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff; /* Màu trắng khi di chuột */
+}
