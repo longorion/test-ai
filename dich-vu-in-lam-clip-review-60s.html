@@ -61,23 +61,6 @@
                                 <button style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); background:rgba(0,0,0,0.7); color:white; border:none; border-radius:5px; padding:10px 15px; font-size:1em; cursor:pointer;">Play Video</button>
                             </div>
                             
-                            <script>
-                                document.querySelector('.youtube-container').addEventListener('click', function() {
-                                    const iframe = document.createElement('iframe');
-                                    iframe.src = 'https://www.youtube-nocookie.com/embed/avd2y6ZvgG8?autoplay=1';
-                                    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
-                                    iframe.allowFullscreen = true;
-                                    iframe.style.position = 'absolute';
-                                    iframe.style.top = '0';
-                                    iframe.style.left = '0';
-                                    iframe.style.width = '100%';
-                                    iframe.style.height = '100%';
-                                    iframe.style.border = 'none';
-                                    this.innerHTML = '';
-                                    this.appendChild(iframe);
-                                });
-                            </script>
-
                           </div>
                           <div class="col-md-4">
                             <div class="card-body">
